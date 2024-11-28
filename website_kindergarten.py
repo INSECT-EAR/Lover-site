@@ -19,7 +19,7 @@ st.set_page_config(
      page_title="果蔬幼儿园主页",
      page_icon=":cat:",
      layout="centered",
-     initial_sidebar_state="expanded",
+     initial_sidebar_state="auto",
      )
 
 background_css = '''
