@@ -84,12 +84,39 @@ images_and_captions = [
     {"image": "https://s2.loli.net/2024/11/28/PtiLljdpuqHN5F4.jpg", "caption": "24.03.09  果蔬couple手机壳"},
     {"image": "https://s2.loli.net/2024/11/28/BaxkEheoPTlfvFR.jpg", "caption": "24.03.08  🥬的节日💐"},
     {"image": "https://s2.loli.net/2024/11/28/8SfIgnad3PkrzAw.jpg", "caption": "24.03.30  🥬抚摸夕阳"},
-    {"image": "https://s2.loli.net/2024/11/28/I6dA8oO7gmKYSZQ.jpg", "caption": "24.03.30  天下第一couple"},
+    {"image": "https://s2.loli.net/2024/11/28/I6dA8oO7gmKYSZQ.jpg", "caption": "24.03.30  镇江 · 天下第一couple"},
     {"image": "https://s2.loli.net/2024/11/28/PCxA6Gg48EOY5pw.jpg", "caption": "24.04.13  晚风来信 · 山阴路的夏天"},
-    {"image": "https://s2.loli.net/2024/11/27/xWzmEdP1rpV5kc2.jpg", "caption": "24.01.09  🍍手持中年🐉"},
+    {"image": "https://s2.loli.net/2024/11/28/EOh49fueUWs1TY2.jpg", "caption": "24.05.02  🥬与入夜的长江大桥"},
     {"image": "https://s2.loli.net/2024/11/28/CwaXEmrJsS9KetV.jpg", "caption": "24.06.01  阅江楼观夏"},
     {"image": "https://s2.loli.net/2024/11/28/TCguYREe75M2jd1.jpg", "caption": "24.06.01  阅江楼观夏"},
-]
+    {"image": "https://s2.loli.net/2024/11/28/eNdbwXG3BlSmiUt.jpg", "caption": "24.05.03  我们在滁州~"},
+    {"image": "https://s2.loli.net/2024/11/28/TCguYREe75M2jd1.jpg", "caption": "24.06.01  阅江楼观夏"},
+    {"image": "https://s2.loli.net/2024/12/02/cl4eZER5DaQ9VGW.jpg", "caption": "24.07.20  People · 萝卜开会"},
+    {"image": "https://s2.loli.net/2024/12/02/bXqMdyP7V5cpK3j.jpg", "caption": "24.11.03  燕雀湖野餐"},
+    {"image": "https://s2.loli.net/2024/11/29/cLf7gb6wk4I1XhD.jpg", "caption": "24.09.22  🥬与🐠"},
+    {"image": "https://s2.loli.net/2024/11/29/3gQWvEH1LtkFdmZ.jpg", "caption": "24.06.08  石臼湖晚霞🍍"},
+    {"image": "https://s2.loli.net/2024/11/29/SzU6xjVot4v9awh.jpg", "caption": "24.06.08  石臼湖边的🥬"},
+    {"image": "https://s2.loli.net/2024/11/28/9zgOGdfB2W1DniP.jpg", "caption": "24.05.09  二条商店里的📸🥬"},
+    {"image": "https://s2.loli.net/2024/11/28/jkmozpQEsLXnSFC.jpg", "caption": "24.05.03  我们在滁州~"},
+    {"image": "https://s2.loli.net/2024/11/28/7XUFWpRDtduNKgJ.jpg", "caption": "24.05.01  江心洲 · 拿着小❀的🥬"},
+    {"image": "https://s2.loli.net/2024/11/28/FE5xZTf3IAuOjhb.jpg", "caption": "24.05.01  我们坐在江心洲灯塔边"},
+    {"image": "https://s2.loli.net/2024/11/28/UD47KpdkPIMBtW1.jpg", "caption": "24.04.18  愚园的🦋 我们让它飞了很远"},
+    {"image": "https://s2.loli.net/2024/11/28/VdDZ43I296pcqF7.jpg", "caption": "24.03.30  镇江 · 金山寺"},
+    {"image": "https://s2.loli.net/2024/11/28/Fd5Bb9A1ETgS32p.jpg", "caption": "24.03.30  镇江 · 金山寺"},
+    {"image": "https://s2.loli.net/2024/12/02/ok7GlKOe5DUvpPN.jpg", "caption": "24.06.29  🍍的生日蛋糕"},
+    {"image": "https://s2.loli.net/2024/12/02/zHD6Bi2ng9Ga3v1.jpg", "caption": "24.10.05  🥬的生日蛋糕"},
+    {"image": "https://s2.loli.net/2024/11/29/FPw6EYbka7qyGhS.jpg", "caption": "24.09.08  仙林的狗狗咖啡店🐕"},
+    {"image": "https://s2.loli.net/2024/11/28/OIU2fqFV4AlbeXi.jpg", "caption": "24.05.09  我们在二条商店"},
+    {"image": "https://s2.loli.net/2024/12/02/iTwq9gfPN8beCuh.jpg", "caption": "24.06.27  上海 · 我们在黄浦江畔~ 🚢"},
+    {"image": "https://s2.loli.net/2024/12/02/umJU6jRBtSTEAkC.jpg", "caption": "24.06.26  上海 · 我们在wingle wingle店内"},
+    {"image": "https://s2.loli.net/2024/12/02/Hbs6lUCh1YQTzPi.jpg", "caption": "24.10.02  上海 · 🥬在苏州河边"},
+    {"image": "https://s2.loli.net/2024/12/02/OfTBW6RcQXpeorP.jpg", "caption": "24.10.02  上海 · 🍍在苏州河边"},
+    {"image": "https://s2.loli.net/2024/12/02/fSLWrgeOIHqQUn8.jpg", "caption": "24.11.03  燕雀湖边"},
+    {"image": "https://s2.loli.net/2024/12/02/wOh8GSWev6TY2It.jpg", "caption": "24.11.24  🍍在仙林校区拍摄秋天"},
+    {"image": "https://s2.loli.net/2024/12/02/xUc4yLHrjEMBPTn.jpg", "caption": "24.10.14  “爱是意义”"},
+    {"image": "https://s2.loli.net/2024/12/02/W94dU35IDYZroFR.jpg", "caption": "‘Stay cooooool!!!'"},
+  
+ ]
 
 random_choice=random.choice(images_and_captions)
 
@@ -260,6 +287,26 @@ if page == "果蔬相册":
                 st.image("https://s2.loli.net/2024/11/27/7qDsheEU1A9Y8Lx.jpg")
                 st.image("https://s2.loli.net/2024/11/27/GYBVWHX7N2luk9s.jpg")
                 st.image("https://s2.loli.net/2024/11/27/t92adbPrw5nWcuy.jpg")
+                
+    if selected_year == "2024" and selected_month == "二月":   
+        st.markdown("""
+        <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px; text-shadow: 0 0 10px,0 0 20px,0 0 30px,0 0 40px;">
+        <i><span style="color: #C9DBF0;">
+        2024.02
+        <br>
+        <br>We're waiting for the spring to come.
+        </div></i></span>
+        """,unsafe_allow_html=True)
+        col3,col4 = st.columns([1,1])
+        with col3:
+            with st.container():
+                st.image("https://s2.loli.net/2024/12/02/BJPMNFRzEk5n62L.jpg")
+                st.image("https://s2.loli.net/2024/12/02/hHjqXbsoyZpwRiS.jpg")
+        with col4:
+            with st.container():
+                st.image("https://s2.loli.net/2024/12/02/g4sHRKrznZP6lfY.jpg")
+                st.image("https://s2.loli.net/2024/12/02/W6ezVZYg5uFaRoQ.jpg")
+    
         
     if selected_year == "2024" and selected_month == "三月":
         st.markdown("""
@@ -332,30 +379,269 @@ if page == "果蔬相册":
     if selected_year == "2024" and selected_month == "五月":   
         st.markdown("""
         <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px; text-shadow: 0 0 10px,0 0 20px,0 0 30px,0 0 40px;">
+        <i><span style="color: #FFDE59;">
+        2024.05.01 ~ 2024.05.03☀
+        </div></i></span>
+        """,unsafe_allow_html=True)
+        col1,col2,col3 = st.columns([1,1,1])
+        with col1:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/28/53eJWqtYlg2MfGH.jpg")
+                st.image("https://s2.loli.net/2024/11/28/PFlMDVGJiy2IOcr.jpg")
+                st.image("https://s2.loli.net/2024/11/28/tG32cDEvuHkOKqF.jpg")
+                st.image("https://s2.loli.net/2024/11/28/2YaoctDFPAXsThp.jpg")
+                st.image("https://s2.loli.net/2024/11/28/swkpvMVQSDZ2R4u.jpg")
+                st.image("https://s2.loli.net/2024/11/28/3lvaF1iVf9dz8Kh.jpg")
+                st.image("https://s2.loli.net/2024/11/28/tCgEDP9Qfws8aUu.jpg")
+        with col2:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/28/XIZVoSbGTxrHFwD.jpg")
+                st.image("https://s2.loli.net/2024/11/28/FE5xZTf3IAuOjhb.jpg")
+                st.image("https://s2.loli.net/2024/11/28/OvHbYp7gjfGTKSN.jpg")
+                st.image("https://s2.loli.net/2024/11/28/7XUFWpRDtduNKgJ.jpg")
+                st.image("https://s2.loli.net/2024/11/28/HZfv6FJO5byApwm.jpg")
+                st.image("https://s2.loli.net/2024/11/28/eNdbwXG3BlSmiUt.jpg")
+                st.image("https://s2.loli.net/2024/11/28/jkmozpQEsLXnSFC.jpg") 
+                
+        with col3:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/28/tdX1fF5Qmiy4lGa.jpg")
+                st.image("https://s2.loli.net/2024/11/28/CoLftJE2Qk4vGeU.jpg")
+                st.image("https://s2.loli.net/2024/11/28/41m5id9zOEy7uSw.jpg")
+                st.image("https://s2.loli.net/2024/11/28/XwQ27fGCzg6jPo3.jpg")
+                st.image("https://s2.loli.net/2024/11/28/LyUsYgCG9roWJ5u.jpg")
+        
+        st.markdown("""
+        <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px; ">
         <i>
-        2024.05.01 ~ 2024.05.03
-        </div></i>
+        2024.05.09 ~ 2024.05.26
+        </div></i></span>
+        """,unsafe_allow_html=True)
+        col4,col5 = st.columns([1,1])
+        with col4:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/28/9zgOGdfB2W1DniP.jpg")
+                st.image("https://s2.loli.net/2024/11/28/itW87zMOocCHLXK.jpg")
+                st.image("https://s2.loli.net/2024/11/28/NR2sjfJmhQWrylo.jpg")
+                st.image("https://s2.loli.net/2024/11/28/632EnclOKYw4NJU.jpg")
+        with col5:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/28/OIU2fqFV4AlbeXi.jpg")
+                st.image("https://s2.loli.net/2024/11/28/DTF4fJkzV61wubx.jpg")
+                st.image("https://s2.loli.net/2024/11/28/cWfyS3nOCeMDZP6.jpg")
+                st.image("https://s2.loli.net/2024/11/28/68cZXILSM2ui4fd.jpg")
+        st.image("https://s2.loli.net/2024/11/28/FWnpNcCrLfzEGws.jpg")
+        
+        st.markdown("""
+        <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px; ">
+        <i>
+        2024.05.31
+        <br>幕府山下的晚风
+        </div></i></span>
+        """,unsafe_allow_html=True)
+        col6,col7 = st.columns([1,1])
+        with col6:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/28/o3VZHDPvfkANTwu.jpg")
+                st.image("https://s2.loli.net/2024/11/28/ZLb61Wjgts5Twdf.jpg")
+                st.image("https://s2.loli.net/2024/11/28/S5JNlTCgKjnGudL.jpg")
+
+        with col7:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/28/J5wzVhxfaHpA6v4.jpg")
+                st.image("https://s2.loli.net/2024/11/28/VILc3OeRuQxqdpG.jpg")
+                st.image("https://s2.loli.net/2024/11/28/29xVk7ej3PoEBlF.jpg")
+                
+    if selected_year == "2024" and selected_month == "六月":   
+        st.markdown("""
+        <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px;">
+        <i>
+        2024.06.01 🎈
+        </div></i></span>
         """,unsafe_allow_html=True)
         col3,col4,col5 = st.columns([1,1,1])
         with col3:
             with st.container():
-                st.image("")
-                st.image("")
-                st.image("")
-                st.image("")
+                st.image("https://s2.loli.net/2024/11/29/NTloxgCPHSMXq4I.jpg")
+                st.image("https://s2.loli.net/2024/11/29/yVRowN1muhK4EgX.jpg")
+                st.image("https://s2.loli.net/2024/11/29/IRXYbgPahFyL6BW.jpg")
+                st.image("https://s2.loli.net/2024/11/29/MUPWdvmEqVbBoGf.jpg")
         with col4:
             with st.container():
-                st.image("")
-                st.image("")
-                st.image("")
-                
+                st.image("https://s2.loli.net/2024/11/29/GpCAW6enUhwDqkO.jpg")
+                st.image("https://s2.loli.net/2024/11/29/1MpH3fnZXjIEuUD.jpg")
+                st.image("https://s2.loli.net/2024/11/29/hGePNDB8zFVjUJ4.jpg")
+                st.image("https://s2.loli.net/2024/11/29/aT9vSDMrioXJ6NQ.jpg")
         with col5:
             with st.container():
-                st.image("")
-                st.image("")
-                st.image("")
-
+                st.image("https://s2.loli.net/2024/11/29/Hsaj6YT9LM1BWwd.jpg")
+                st.image("https://s2.loli.net/2024/11/29/h9bIeusa2dkLrZU.jpg")
+                st.image("https://s2.loli.net/2024/11/29/bUwyTks9f6cE7Gn.jpg")        
+        
+        st.markdown("""
+        <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px;">
+        <i>
+        2024.06.08 ~ 2024.06.09 🚗🚘 
+        </div></i></span>
+        """,unsafe_allow_html=True)
+        col6,col4,col5 = st.columns([1,1,1])
+        with col6:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/29/8dDxaegQESRiCj1.jpg")
+                st.image("https://s2.loli.net/2024/11/29/n2BjEP85efpG7mM.jpg")
+                st.image("https://s2.loli.net/2024/11/29/jXGqKgFfVHtyIzo.jpg")
+        with col4:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/29/SzU6xjVot4v9awh.jpg")
+                st.image("https://s2.loli.net/2024/11/29/PAbrzcB7FCgvXlT.jpg")
+                st.image("https://s2.loli.net/2024/11/29/DHAjYbFTOMIeaon.jpg")
+                st.image("https://s2.loli.net/2024/11/29/jQ3yxUZo2M9nmse.jpg")
+        with col5:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/29/3gQWvEH1LtkFdmZ.jpg")
+                st.image("https://s2.loli.net/2024/11/29/RUFovSKLQNgWOYA.jpg")
+                st.image("https://s2.loli.net/2024/11/29/1j4sITFqwva5ZC9.jpg")
     
+    if selected_year == "2024" and selected_month == "七月":   
+        st.markdown("""
+        <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px; text-shadow: 0 0 10px,0 0 20px,0 0 30px,0 0 40px;">
+        <i><span style="color: #FE9900;">
+        2024.07.08
+        <br>Pineapple's Birthday~🎂🎉🤩
+        </div></i></span>
+        """,unsafe_allow_html=True)
+        col3,col4 = st.columns([1,1])
+        
+        with col3:
+            with st.container():
+                st.image("https://s2.loli.net/2024/12/02/4OgNI6d7QFSxmMi.jpg")
+                st.image("https://s2.loli.net/2024/12/02/TRXHJW7Fb4hinVU.jpg")
+                st.image("https://s2.loli.net/2024/12/02/lX6JrVyshnNHLpe.jpg")
+                st.image("https://s2.loli.net/2024/12/02/cl4eZER5DaQ9VGW.jpg")
+                st.image("https://s2.loli.net/2024/12/02/vUkGtoQwD46Fnxz.jpg")
+                st.image("https://s2.loli.net/2024/12/02/5QuHefIAysF8bSK.jpg")
+        with col4:
+            with st.container():
+                st.image("https://s2.loli.net/2024/12/02/ok7GlKOe5DUvpPN.jpg")
+                st.image("https://s2.loli.net/2024/12/02/6vJO5wzfKA7ErCx.jpg")
+                st.image("https://s2.loli.net/2024/12/02/hHKzEWrYlmDRvC1.jpg")
+                st.image("https://s2.loli.net/2024/12/02/N4WZgQ2izsj6wbA.jpg")
+                st.image("https://s2.loli.net/2024/12/02/k8Opbq6A2mRNEQs.jpg")
+                st.image("https://s2.loli.net/2024/12/02/FXa3GZb8mvxoCV5.jpg")
+    
+    if selected_year == "2024" and selected_month == "八月":   
+        st.markdown("""
+        <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px; text-shadow: 0 0 10px,0 0 20px,0 0 30px;">
+        <i><span style="color: #AF3939;">
+        2024.02
+        <br>
+        <br>We're waiting for the autumn to come.
+        </div></i></span>
+        """,unsafe_allow_html=True)
+        st.image("https://s2.loli.net/2024/12/02/nYlNHtXZgJ3O1Au.jpg")
+        st.image("https://s2.loli.net/2024/12/02/Mo6tzFhix7HBUfb.jpg")
+    
+    if selected_year == "2024" and selected_month == "九月":   
+        st.markdown("""
+        <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px; text-shadow: 0 0 10px,0 0 20px,0 0 30px,0 0 40px;">
+        <i><span style="color: #A8D34A;">
+        2024.09
+        </div></i></span>
+        """,unsafe_allow_html=True)
+        col3,col4 = st.columns([1,1])
+        with col3:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/29/cLf7gb6wk4I1XhD.jpg")
+                st.image("https://s2.loli.net/2024/11/29/ueV8cywgMA6PX2l.jpg")
+                st.image("https://s2.loli.net/2024/11/29/FPw6EYbka7qyGhS.jpg")
+                st.image("https://s2.loli.net/2024/11/29/cLf7gb6wk4I1XhD.jpg")
+                st.image("https://s2.loli.net/2024/11/29/Nw9kUpyP2OeG84t.jpg")
+                st.image("https://s2.loli.net/2024/11/29/IavK31HLSdTPpxY.jpg")
+        with col4:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/29/qmUGkMo5xRnLZXW.jpg")
+                st.image("https://s2.loli.net/2024/11/29/ZUpCxqDG8tKn9Om.jpg")
+                st.image("https://s2.loli.net/2024/11/29/6HdtLyMp3oPIXki.jpg")
+                st.image("https://s2.loli.net/2024/11/29/Y2QS1wVilysaogH.jpg")
+                st.image("https://s2.loli.net/2024/11/29/P361qTBJ8jZInpC.jpg")
+                
+    if selected_year == "2024" and selected_month == "十月":   
+        st.markdown("""
+        <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px; text-shadow: 0 0 20px,0 0 30px;">
+        <i><span style="color: #3924AF;">
+        2024.10.02 ~ 2024.10.05
+        <br>上海 · 苏州河 / 嘉兴 · 南湖 · 月河
+        </div></i></span>
+        """,unsafe_allow_html=True)
+        col3,col4,col5 = st.columns([1,1,1])
+        with col3:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/30/zl8dQLB7AE9tHoN.jpg")
+                st.image("https://s2.loli.net/2024/11/30/ISnZGHyEbDJ8qOz.jpg")
+                st.image("https://s2.loli.net/2024/11/30/fdag2u8sMYx7OPN.jpg")
+                st.image("https://s2.loli.net/2024/11/30/kmndx2vq48r6FBY.jpg")
+                st.image("https://s2.loli.net/2024/11/30/ITYeuMlwB5sSjrc.jpg")
+                
+        with col4:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/30/WOE17oq2FkSteAY.jpg")
+                st.image("https://s2.loli.net/2024/11/30/dvG2Sirk8OYmWM6.jpg")
+                st.image("https://s2.loli.net/2024/11/30/EIodtYVG1m8uPpO.jpg")
+                st.image("https://s2.loli.net/2024/11/30/IfQaeH2dBx1jsGO.jpg")
+                st.image("https://s2.loli.net/2024/11/30/Gy8Cu6Bolq9vdc5.jpg")
+        with col5:
+            with st.container():
+                st.image("https://s2.loli.net/2024/11/30/zKE9bXjNWivlmUf.jpg")
+                st.image("https://s2.loli.net/2024/11/30/W2DaAOy4LoB6nvb.jpg")
+                st.image("https://s2.loli.net/2024/11/30/JrkAHUSQbNvYZ1l.jpg")
+                st.image("https://s2.loli.net/2024/11/30/kXVKomcTI4gBQJ8.jpg")
+                st.image("https://s2.loli.net/2024/11/30/P5N8nabw6XYOcrt.jpg")
+                          
+                
+        st.markdown("""
+        <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px; text-shadow: 0 0 10px,0 0 20px,0 0 30px,0 0 40px;">
+        <i><span style="color: #F0ADB7;">
+        2024.10.17
+        <br>Cabbage's Birthday~🎂🎉🤩
+        </div></i></span>
+        """,unsafe_allow_html=True)
+        st.image("https://s2.loli.net/2024/11/30/8fzLE5Ot2hP9rAK.jpg")
+        col1,col2 = st.columns([1,1])
+        with col1:
+            with st.container():
+                st.image("https://s2.loli.net/2024/12/02/rDTt3RvwSHOeIiK.jpg")
+                st.image("https://s2.loli.net/2024/12/02/X2xOnZaiFS4vqtQ.jpg")
+
+        with col2:
+            with st.container():
+                st.image("https://s2.loli.net/2024/12/02/eX2UsgHCzM7YbIB.jpg")
+    
+    if selected_year == "2024" and selected_month == "十一月":   
+        st.markdown("""
+        <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px;">
+        <i>
+        2024.11.03
+        <br>燕雀湖 & 明孝陵 & 🦌
+        </div></i></span>
+        """,unsafe_allow_html=True)
+        col3,col4,col5 = st.columns([1,1,1])
+        with col3:
+            with st.container():
+                st.image("https://s2.loli.net/2024/12/02/ewg75tHDT4I6lsd.jpg")
+                st.image("https://s2.loli.net/2024/12/02/bXqMdyP7V5cpK3j.jpg")
+                st.image("https://s2.loli.net/2024/12/02/TEG4mM9HVQ5deX2.jpg")
+                st.image("https://s2.loli.net/2024/12/02/RfOji4y1emEapNQ.jpg")
+        with col4:
+            with st.container():
+                st.image("https://s2.loli.net/2024/12/02/5juMloz2NESDRwO.jpg")
+                st.image("https://s2.loli.net/2024/12/02/zpLj1dOTua754h9.jpg")
+                st.image("https://s2.loli.net/2024/12/02/7cftx5Ml62PFeDr.jpg")
+                             
+        with col5:
+            with st.container():
+                st.image("https://s2.loli.net/2024/12/02/NJxZpcFEGRdoXmS.jpg")
+                st.image("https://s2.loli.net/2024/12/02/CoAKluiykXYHenG.jpg")
+                st.image("https://s2.loli.net/2024/12/02/njMP7UxcK9Cwa1D.jpg")            
     
     if selected_year == "2024" and selected_month == "十二月":   
         st.markdown("""
@@ -481,9 +767,10 @@ if page == "果蔬小测试":
                         if i not in re_answer5:
                             re_answer5.append(i)
                     st.session_state.mark = st.session_state.mark + 20*len(set(set(re_answer5).intersection(set(co_answer5))))
-                if st.session_state.mark >= 100:
-                    st.session_state.mark = '100💯'
-                result = '你获得了{mark}分'.format(mark=st.session_state.mark)
+                if int(st.session_state.mark) >= 100:
+                    result = '你获得了💯！恭喜你！'
+                else:    
+                    result = '你获得了{mark}分'.format(mark=st.session_state.mark)
                 st.markdown(result)
 
                 
@@ -491,6 +778,7 @@ if page == "果蔬小测试":
             if st.button('我要再来一次'):
                 st.session_state.show = 0
                 st.session_state.mark = 0
+                st.session_state.clicked = False
         
         with col3:
             if st.session_state.show > 0:
@@ -500,6 +788,4 @@ if page == "果蔬小测试":
                         st.markdown('除了维生素C之外，猕猴桃还是一座营养宝库，富含糖类物质、蛋白质、氨基酸等多种有机物，以及钙、铁、锌等人体必需的矿物质。这些营养物质共同作用于人体，不仅能够为身体提供充足的能量，还能促进新陈代谢，维持身体机能的正常运转。特别是猕猴桃中的蛋白水解酶，这种独特的酶类物质能够帮助人体更好地消化肉类食物，预防蛋白质在肠道内的异常凝固，从而减轻肠胃负担。')
                         st.markdown('此外，猕猴桃还含有丰富的纤维素和果胶等膳食纤维成分。这些成分在人体内能够吸水膨胀，增加粪便体积，促进肠道蠕动，有助于预防便秘等肠道问题。同时，它们还能吸附并带走肠道内的有害物质，起到清洁肠道、维护肠道健康的作用。综上所述，猕猴桃以其全面的营养成分和卓越的保健功能，当之无愧地被誉为“水果之王”。')
 
-           
-    
-    
+          
