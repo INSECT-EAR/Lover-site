@@ -652,39 +652,6 @@ if page == "果蔬相册":
         <br>and therefore is winged Cupid painted blind.
         </div></i></span>
         """,unsafe_allow_html=True)
-        
-        
-if page == "果蔬地图":
-    m = folium.Map(location=[32.0542, 118.7805],
-                   zoom_start=15,
-                   tiles='http://webrd02.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=7&x={x}&y={y}&z={z}',
-                   attr='a',
-                   control_scale=True)
-
-    # 添加标记到地图
-    folium.Marker(
-        location=[32.0224, 118.7822],
-        popup='Magpie_Bar',
-        icon=folium.Icon(icon='fa-solid fa-heart',color="white",icon_color='lightblue', prefix='fa')
-        ).add_to(m)
-    folium.Marker(
-        location=[32.0542, 118.7805],
-        popup='Headquarters',
-        icon=folium.Icon(icon='fa-solid fa-heart',color='white',icon_color='red', prefix='fa'),
-        unsafe_allow_html=True
-        ).add_to(m)
-    folium.Marker(
-        location=[32.012650,118.784000],
-        popup='A_small_book_store',
-        icon=folium.Icon(icon='fa-solid fa-heart',color="white",icon_color='lightblue', prefix='fa')
-        ).add_to(m)
-    folium.Marker(
-        location=[32.022475,118.779577],
-        popup="O'eat_Blossom&Pelican",
-        icon=folium.Icon(icon='fa-solid fa-heart',color="white",icon_color='lightblue', prefix='fa')
-        ).add_to(m)
-    # 在Streamlit应用中展示地图
-    st_folium(m, width=750, height=600)
  
 if 'clicked' not in st.session_state:
     st.session_state.clicked = False   
