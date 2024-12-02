@@ -122,7 +122,7 @@ random_choice=random.choice(images_and_captions)
 
 #编辑侧边栏项目
 st.sidebar.title(':sheep::cat::dog::pineapple::tomato:')
-page=st.sidebar.selectbox('选择页面',('幼儿园大门','果蔬相册','果蔬地图','果蔬小测试'))
+page=st.sidebar.selectbox('选择页面',('幼儿园大门','果蔬地图','果蔬小测试'))
 if page == "幼儿园大门":
     #
     st.markdown(web_title, unsafe_allow_html=True)
