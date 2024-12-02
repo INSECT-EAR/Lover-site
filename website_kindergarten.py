@@ -652,24 +652,6 @@ if page == "果蔬相册":
         <br>and therefore is winged Cupid painted blind.
         </div></i></span>
         """,unsafe_allow_html=True)
-        col3,col4,col5 = st.columns([1,1,1])
-        with col3:
-            with st.container():
-                st.image("")
-                st.image("")
-                st.image("")
-                st.image("")
-        with col4:
-            with st.container():
-                st.image("")
-                st.image("")
-                st.image("")
-                
-        with col5:
-            with st.container():
-                st.image("")
-                st.image("")
-                st.image("")
         
         
 if page == "果蔬地图":
