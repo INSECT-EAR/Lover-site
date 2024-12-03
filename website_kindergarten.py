@@ -533,7 +533,7 @@ if page == "果蔬相册":
         st.markdown("""
         <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px; text-shadow: 0 0 10px,0 0 20px,0 0 30px;">
         <i><span style="color: #AF3939;">
-        2024.02
+        2024.08
         <br>
         <br>We're waiting for the autumn to come.
         </div></i></span>
