@@ -645,6 +645,29 @@ if page == "果蔬相册":
     
     if selected_year == "2024" and selected_month == "十二月":   
         st.markdown("""
+        <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px; text-shadow: 0 0 10px,0 0 20px,0 0 30px;">
+        <i><span style="color: #990000;">
+        2024.12.05 ~ 2024.12.08
+        <br> 苏 州
+        </div></i></span>
+        """,unsafe_allow_html=True)
+        col3,col4 = st.columns([1,1])
+        with col3:
+            with st.container():
+                st.image("https://s2.loli.net/2024/12/21/Zev4qUSDG7JarwH.jpg")
+                st.image("https://s2.loli.net/2024/12/21/4TYlVjHeftzo1rx.jpg")
+                st.image("https://s2.loli.net/2024/12/21/fgRChMZnw8PT7oH.jpg")
+                st.image("https://s2.loli.net/2024/12/21/PfJQv3VIk9WRaKo.jpg")
+               
+        with col4:
+            with st.container():
+                st.image("https://s2.loli.net/2024/12/21/DwFiyLrmRE4oBjn.jpg")
+                st.image("https://s2.loli.net/2024/12/21/AdC9v1LJkwOyrge.jpg")
+                st.image("https://s2.loli.net/2024/12/21/OUzKBqNehi7EXay.jpg")
+                st.image("https://s2.loli.net/2024/12/21/5UHXYbd9DjNtOxT.jpg")
+                st.image("https://s2.loli.net/2024/12/21/lQ9G6TyHYhrCut3.jpg")
+        
+        st.markdown("""
         <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px; text-shadow: 0 0 10px,0 0 20px,0 0 30px,0 0 40px;">
         <i><span style="color: #C591EA;">
         2024.12.18
@@ -652,6 +675,10 @@ if page == "果蔬相册":
         <br>and therefore is winged Cupid painted blind.
         </div></i></span>
         """,unsafe_allow_html=True)
+        with st.container():
+            st.image("https://s2.loli.net/2024/12/21/cmLR6np7aCvjr8Y.jpg")
+            st.image("https://s2.loli.net/2024/12/21/ENf5yCFr4ASGkV6.jpg")
+            st.image("https://s2.loli.net/2024/12/21/FSl8EnOT3AhCB69.jpg")
  
 if 'clicked' not in st.session_state:
     st.session_state.clicked = False   
