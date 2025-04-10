@@ -42,6 +42,7 @@ p {line-height:1.8;}
 <text-indent: 2em;>
 <strong>
 果蔬幼儿园年度纪念册
+——明天就更新剩下的照片
 </div></span></strong></p>
 """
 
