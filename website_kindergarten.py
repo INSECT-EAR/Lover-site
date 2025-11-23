@@ -684,7 +684,22 @@ if page == "果蔬相册":
             
     if selected_year == "2025" and selected_month == "一月":   
           st.markdown("""
-             """)
+          <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px;">
+          <i>
+          2024.01.08
+          <br>Jeju 🍊</div></i>
+          """,unsafe_allow_html=True)
+          col1,col2 = st.columns([1,1])
+          with col1:
+              with st.container():
+                  st.image("https://s2.loli.net/2025/11/23/hYK1QqwbPALt4Wa.jpg") 
+                  st.image("https://s2.loli.net/2025/11/23/eZtN9OfSEUbx2o5.jpg")
+                  #st.image("")
+          with col2:
+              with st.container():
+                  st.image("https://sm.ms/image/tTDA1QNe7RiSXUO")
+                  #st.image("")
+                  st.image("https://s2.loli.net/2025/11/23/DG1397iZFpynXwu.jpg")
              
     if selected_year == "2025" and selected_month == "六月":   
           st.markdown("""
@@ -777,6 +792,7 @@ if page == "果蔬小测试":
     
     if st.button('开始测试'):
         test()
+
 
 
 
