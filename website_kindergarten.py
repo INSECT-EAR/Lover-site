@@ -729,7 +729,7 @@ if page == "果蔬地图":
     ).add_to(m)
     
     icon = folium.CustomIcon("https://s2.loli.net/2025/11/23/USTYMOAy7LFZeqK.png", icon_size=(40, 40))
-    
+    '''
     folium.Marker([118.77478,32.01766],icon=icon,popup='🦭').add_to(m) #南京
     folium.Marker([121.66210,31.14176],icon=icon,popup='🦭').add_to(m) #上海
     folium.Marker([121.61752,38.86537],icon=icon,popup='🦭').add_to(m) #大连
@@ -744,7 +744,7 @@ if page == "果蔬地图":
     folium.Marker([116.073456,5.980408],icon=icon,popup='🦭').add_to(m) #亚庇沙比岛
     folium.Marker([101.711861,3.157764],icon=icon,popup='🦭').add_to(m) #吉隆坡
     folium.Marker([102.240143,2.200844],icon=icon,popup='🦭').add_to(m) #马六甲
-    
+    '''
     st_folium(m, width=725)
 
 if 'clicked' not in st.session_state:
@@ -834,3 +834,4 @@ if page == "果蔬小测试":
     
     if st.button('开始测试'):
         test()
+
