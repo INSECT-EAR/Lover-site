@@ -733,7 +733,19 @@ if page == "果蔬地图":
          [32.05512344513, 118.779423254],
          icon=icon,
          popup='🦭'
-     ).add_to(m)
+     ).add_to(m) #南京
+
+     folium.Marker(
+         [31.14176, 121.66210],
+         icon=icon,
+         popup='🦭'
+     ).add_to(m) #上海
+
+     folium.Marker(
+         [38.86537, 121.61752],
+         icon=icon,
+         popup='🦭'
+     ).add_to(m) #大连
     '''
 
     folium.Marker([119.74096,30.62176],icon=icon,popup='🦭').add_to(m) #hellokitty
@@ -837,6 +849,7 @@ if page == "果蔬小测试":
     
     if st.button('开始测试'):
         test()
+
 
 
 
