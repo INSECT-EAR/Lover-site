@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Nov 26 16:20:00 2024
-
-@author: Dasein
-"""
-
+Spyder 编辑器
 import streamlit as st
 import time
 import pandas as pd
@@ -39,7 +35,7 @@ p {line-height:1.8;}
 </style>
 <div style="font-family: 'SimSun', serif;">
 <span style="font-size: 30px;">
-<text-indent: 2em;>
+<text-indent:2em;>
 <strong>
 果蔬幼儿园年度纪念册
 ——明天就更新剩下的照片
@@ -132,6 +128,7 @@ if page == "幼儿园大门":
     love_advent_day = datetime.date(2023,12,18)
     today = datetime.date.today()
     days_past = today.__sub__(love_advent_day).days
+    days_past = days_past.__sub__(2).days
     days_past_str = str(days_past)
     days_count = """
     <div style="font-family: '楷体', serif;">
@@ -766,3 +763,5 @@ if page == "果蔬小测试":
                         st.markdown('此外，猕猴桃还含有丰富的纤维素和果胶等膳食纤维成分。这些成分在人体内能够吸水膨胀，增加粪便体积，促进肠道蠕动，有助于预防便秘等肠道问题。同时，它们还能吸附并带走肠道内的有害物质，起到清洁肠道、维护肠道健康的作用。综上所述，猕猴桃以其全面的营养成分和卓越的保健功能，当之无愧地被誉为“水果之王”。')
 
           
+这是一个临时脚本文件。
+"""
