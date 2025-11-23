@@ -727,7 +727,7 @@ if page == "果蔬地图":
         attr='果蔬地图',
         subdomains=['1', '2', '3', '4']  # 子域名
     ).add_to(m)
-    
+    icon = folium.CustomIcon("https://s2.loli.net/2025/11/23/USTYMOAy7LFZeqK.png", icon_size=(40, 40))
     folium.Marker([32.01766,118.77478],icon=icon,popup='🦭').add_to(m) #南京
 
     st_folium(m, width=725)
@@ -819,6 +819,7 @@ if page == "果蔬小测试":
     
     if st.button('开始测试'):
         test()
+
 
 
 
