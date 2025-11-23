@@ -733,7 +733,7 @@ if page == "果蔬地图":
                               "lot":[118.779423254,121.66210,121.61752]})
     for _,row in locations.iterrows():
         folium.Marker([row["lat"],row["lot"]],icon=icon).add_to(m)
-    folium.Marker([118.77478,32.01766],icon=icon,popup='🦭').add_to(m) #南京
+    folium.Marker([32.01766,118.77478],icon=icon,popup='🦭').add_to(m) #南京
 
     st_folium(m, width=725)
 
@@ -824,6 +824,7 @@ if page == "果蔬小测试":
     
     if st.button('开始测试'):
         test()
+
 
 
 
