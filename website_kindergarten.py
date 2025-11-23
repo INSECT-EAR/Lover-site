@@ -697,7 +697,7 @@ if page == "果蔬相册":
                   #st.image("")
           with col2:
               with st.container():
-                  st.image("![IMG_3622.JPG](https://s2.loli.net/2025/11/23/tTDA1QNe7RiSXUO.jpg)")
+                  st.image("https://s2.loli.net/2025/11/23/tTDA1QNe7RiSXUO.jpg")
                   #st.image("")
                   st.image("https://s2.loli.net/2025/11/23/DG1397iZFpynXwu.jpg")
              
@@ -792,6 +792,7 @@ if page == "果蔬小测试":
     
     if st.button('开始测试'):
         test()
+
 
 
 
