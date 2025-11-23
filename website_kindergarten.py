@@ -124,11 +124,18 @@ if page == "幼儿园大门":
     st.markdown(web_title, unsafe_allow_html=True)
     
     #网页时间模组
-    love_advent_day = datetime.date(2023,12,18)
+    love_advent_day = "2023-12-18 22:30:00"
+    format = "%Y-%m-%d %H:%M:%S"
     today = datetime.date.today()
-    days_past = today.__sub__(love_advent_day).days
-    days_past = days_past.__sub__(2).days
-    days_past_str = str(days_past)
+    love_advent_date = datetime.datetime.strptime(love_advent_day,format)
+    cal_today = (datetime.datetime.now()-datetime.timedelta(days=2)+datetime.timedelta(hours=13))
+    days_past = cal_today - love_advent_date
+    total_seconds = days_past.seconds
+    hours = days_past.seconds//3600
+    minutes = (days_past.seconds%3600)//60
+    seconds = (days_past.seconds%3600)%60
+    days_past_str = str(days_past.days) + "天" + str(hours) + "小时" + str(minutes) + "分钟" + str(seconds) + "秒"
+    
     days_count = """
     <div style="font-family: '楷体', serif;">
     <div style="text-align: center; position: fixed; bottom: 0; width: 50%; padding: 30px;">
@@ -760,5 +767,3 @@ if page == "果蔬小测试":
                         st.markdown('猕猴桃之所以能被尊称为“水果之王”，更在于其惊人的营养价值。在众多水果中，猕猴桃以其维生素C的超高含量脱颖而出。每100克鲜果中，维生素C的含量可达100至420毫克，这一数字不仅远超甜橙，更是苹果的数十倍之多，几乎在所有水果中名列前茅。维生素C作为人体必需的营养素，对于增强免疫力、促进胶原蛋白合成、保护皮肤健康等方面都发挥着重要作用。')
                         st.markdown('除了维生素C之外，猕猴桃还是一座营养宝库，富含糖类物质、蛋白质、氨基酸等多种有机物，以及钙、铁、锌等人体必需的矿物质。这些营养物质共同作用于人体，不仅能够为身体提供充足的能量，还能促进新陈代谢，维持身体机能的正常运转。特别是猕猴桃中的蛋白水解酶，这种独特的酶类物质能够帮助人体更好地消化肉类食物，预防蛋白质在肠道内的异常凝固，从而减轻肠胃负担。')
                         st.markdown('此外，猕猴桃还含有丰富的纤维素和果胶等膳食纤维成分。这些成分在人体内能够吸水膨胀，增加粪便体积，促进肠道蠕动，有助于预防便秘等肠道问题。同时，它们还能吸附并带走肠道内的有害物质，起到清洁肠道、维护肠道健康的作用。综上所述，猕猴桃以其全面的营养成分和卓越的保健功能，当之无愧地被誉为“水果之王”。')
-
-
