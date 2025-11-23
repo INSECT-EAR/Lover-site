@@ -735,6 +735,8 @@ if page == "果蔬地图":
         icon=icon,
         popup='🦭'
     ).add_to(m)
+    
+    st_folium(m, width=725)
 
 if 'clicked' not in st.session_state:
     st.session_state.clicked = False   
