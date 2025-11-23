@@ -729,20 +729,10 @@ if page == "果蔬地图":
     ).add_to(m)
     
     icon = folium.CustomIcon("https://s2.loli.net/2025/11/23/USTYMOAy7LFZeqK.png", icon_size=(40, 40))
-    folium.Marker(
-        [32.05512344513, 118.779423254],
-        icon=icon,
-    ).add_to(m) #南京
-
-    folium.Marker(
-        [31.14176, 121.66210],
-        icon=icon,
-    ).add_to(m) #上海
-
-    folium.Marker(
-        [38.86537, 121.61752],
-        icon=icon,
-    ).add_to(m) #大连
+    locations = pd.DataFrame({"lat":[32.05512344513,31.14176,38.86537],
+                              "lot":[118.779423254,121.66210,121.61752]})
+    for _,row in locations.iterrows():
+        folium.Marker([row["lat"],row["lot"],icon==icon]).add_to(m)
     
     '''
     folium.Marker([118.77478,32.01766],icon=icon,popup='🦭').add_to(m) #南京
@@ -849,7 +839,6 @@ if page == "果蔬小测试":
     
     if st.button('开始测试'):
         test()
-
 
 
 
