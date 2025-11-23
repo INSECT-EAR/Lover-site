@@ -727,12 +727,13 @@ if page == "果蔬地图":
         attr='果蔬地图',
         subdomains=['1', '2', '3', '4']  # 子域名
     ).add_to(m)
-    
-    icon = folium.CustomIcon("https://s2.loli.net/2025/11/23/USTYMOAy7LFZeqK.png", icon_size=(40, 40))
-    '''
     folium.Marker([118.77478,32.01766],icon=icon,popup='🦭').add_to(m) #南京
     folium.Marker([121.66210,31.14176],icon=icon,popup='🦭').add_to(m) #上海
     folium.Marker([121.61752,38.86537],icon=icon,popup='🦭').add_to(m) #大连
+    
+    icon = folium.CustomIcon("https://s2.loli.net/2025/11/23/USTYMOAy7LFZeqK.png", icon_size=(40, 40))
+    '''
+
     folium.Marker([119.74096,30.62176],icon=icon,popup='🦭').add_to(m) #hellokitty
     folium.Marker([113.26630888834939,23.121096917773666],icon=icon,popup='🦭').add_to(m) #广州
     folium.Marker([118.50892694191964,31.705546329308735],icon=icon,popup='🦭').add_to(m) #马鞍山
@@ -834,4 +835,5 @@ if page == "果蔬小测试":
     
     if st.button('开始测试'):
         test()
+
 
