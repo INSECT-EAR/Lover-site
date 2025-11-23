@@ -692,7 +692,7 @@ if page == "果蔬相册":
           col1,col2 = st.columns([1,1])
           with col1:
               with st.container():
-                  st.image("https://s2.loli.net/2025/11/23/X8MfbgpAF72uxIj.jpg")
+                  st.image("https://s2.loli.net/2025/11/23/dBpTD2oHXJUG4i5.jpg")
                   st.image("https://s2.loli.net/2025/11/23/hYK1QqwbPALt4Wa.jpg") 
                   st.image("https://s2.loli.net/2025/11/23/X8MfbgpAF72uxIj.jpg")
                   st.image("https://s2.loli.net/2025/11/23/xEPVRZWlQ9nq4Ns.jpg")
@@ -703,9 +703,9 @@ if page == "果蔬相册":
                   
           with col2:
               with st.container():
+                  st.image("https://s2.loli.net/2025/11/23/l7eGuLy3N5fdmVa.jpg")
                   st.image("https://s2.loli.net/2025/11/23/t6sbBEpUgNKkoQP.jpg")
                   st.image("https://s2.loli.net/2025/11/23/4Q6hF1GYPJczedE.jpg")
-                  st.image("https://s2.loli.net/2025/11/23/KgaHO13rhNQXskc.jpg")
                   st.image("https://s2.loli.net/2025/11/23/8ysJIbTWwnXaLSg.jpg")
                   st.image("https://s2.loli.net/2025/11/23/2NosUKAX7BMEjTk.jpg")
                   st.image("https://s2.loli.net/2025/11/23/geybkF453NrKvaB.jpg")
@@ -823,4 +823,5 @@ if page == "果蔬小测试":
     
     if st.button('开始测试'):
         test()
+
 
