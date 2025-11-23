@@ -763,6 +763,7 @@ if page == "果蔬小测试":
         with col2:
             if st.button('我要再来一次'):
                 st.session_state.show = 0
+                st.session_state.mark = 0
                 st.rerun(scope="fragment")
         
         with col3:
@@ -776,6 +777,7 @@ if page == "果蔬小测试":
     
     if st.button('开始测试'):
         test()
+
 
 
 
