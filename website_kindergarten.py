@@ -692,14 +692,19 @@ if page == "果蔬相册":
           col1,col2 = st.columns([1,1])
           with col1:
               with st.container():
+                  st.image("https://s2.loli.net/2025/11/23/X8MfbgpAF72uxIj.jpg")
                   st.image("https://s2.loli.net/2025/11/23/hYK1QqwbPALt4Wa.jpg") 
                   st.image("https://s2.loli.net/2025/11/23/eZtN9OfSEUbx2o5.jpg")
-                  #st.image("")
+                  st.image("https://s2.loli.net/2025/11/23/X8MfbgpAF72uxIj.jpg")
+                  st.image("https://s2.loli.net/2025/11/23/YA54wszqoNnjm3X.jpg")
+                  
           with col2:
               with st.container():
+                  st.image("https://s2.loli.net/2025/11/23/vpfPqL8eSEnkO9m.jpg")
                   st.image("https://s2.loli.net/2025/11/23/tTDA1QNe7RiSXUO.jpg")
-                  #st.image("")
+                  st.image("https://s2.loli.net/2025/11/23/2NosUKAX7BMEjTk.jpg")
                   st.image("https://s2.loli.net/2025/11/23/DG1397iZFpynXwu.jpg")
+                  st.image("https://s2.loli.net/2025/11/23/Cc72gNDTdQzGjHr.jpg")
              
     if selected_year == "2025" and selected_month == "六月":   
           st.markdown("""
@@ -792,6 +797,7 @@ if page == "果蔬小测试":
     
     if st.button('开始测试'):
         test()
+
 
 
 
