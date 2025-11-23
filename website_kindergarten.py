@@ -117,7 +117,7 @@ random_choice=random.choice(images_and_captions)
 
 #编辑侧边栏项目
 st.sidebar.title(':sheep::cat::dog::pineapple::tomato:')
-page=st.sidebar.selectbox('选择页面',('幼儿园大门','果蔬相册','果蔬小测试'))
+page=st.sidebar.selectbox('选择页面',('幼儿园大门','果蔬相册','果蔬地图','果蔬小测试'))
 if page == "幼儿园大门":
     #
     st.markdown(web_title, unsafe_allow_html=True)
@@ -686,7 +686,7 @@ if page == "果蔬相册":
           st.markdown("""
           <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px;">
           <i>
-          2024.01.08
+          2025.01.13 ~ 2025.01.16
           <br>Jeju 🍊</div></i>
           """,unsafe_allow_html=True)
           col1,col2 = st.columns([1,1])
@@ -694,21 +694,47 @@ if page == "果蔬相册":
               with st.container():
                   st.image("https://s2.loli.net/2025/11/23/X8MfbgpAF72uxIj.jpg")
                   st.image("https://s2.loli.net/2025/11/23/hYK1QqwbPALt4Wa.jpg") 
-                  st.image("https://s2.loli.net/2025/11/23/eZtN9OfSEUbx2o5.jpg")
                   st.image("https://s2.loli.net/2025/11/23/X8MfbgpAF72uxIj.jpg")
+                  st.image("https://s2.loli.net/2025/11/23/xEPVRZWlQ9nq4Ns.jpg")
                   st.image("https://s2.loli.net/2025/11/23/YA54wszqoNnjm3X.jpg")
+                  st.image("https://s2.loli.net/2025/11/23/Cc72gNDTdQzGjHr.jpg")
+                  st.image("https://s2.loli.net/2025/11/23/fC5WJD412zpT63q.jpg")
+                  
                   
           with col2:
               with st.container():
-                  st.image("https://s2.loli.net/2025/11/23/vpfPqL8eSEnkO9m.jpg")
-                  st.image("https://s2.loli.net/2025/11/23/tTDA1QNe7RiSXUO.jpg")
+                  st.image("https://s2.loli.net/2025/11/23/t6sbBEpUgNKkoQP.jpg")
+                  st.image("https://s2.loli.net/2025/11/23/4Q6hF1GYPJczedE.jpg")
+                  st.image("https://s2.loli.net/2025/11/23/KgaHO13rhNQXskc.jpg")
+                  st.image("https://s2.loli.net/2025/11/23/8ysJIbTWwnXaLSg.jpg")
                   st.image("https://s2.loli.net/2025/11/23/2NosUKAX7BMEjTk.jpg")
+                  st.image("https://s2.loli.net/2025/11/23/geybkF453NrKvaB.jpg")
                   st.image("https://s2.loli.net/2025/11/23/DG1397iZFpynXwu.jpg")
-                  st.image("https://s2.loli.net/2025/11/23/Cc72gNDTdQzGjHr.jpg")
+                  st.image("https://s2.loli.net/2025/11/23/eZtN9OfSEUbx2o5.jpg")
+                  #st.image("")
+                 
              
     if selected_year == "2025" and selected_month == "六月":   
           st.markdown("""
                """)
+               
+if page == "果蔬地图":
+    m = folium.Map(location=[32.055, 118.7794], zoom_start=11, tiles=None)
+    
+    # 添加高德地图图层
+    folium.TileLayer(
+        tiles='http://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}',
+        attr='果蔬地图',
+        subdomains=['1', '2', '3', '4']  # 子域名
+    ).add_to(m)
+    
+    icon = folium.CustomIcon("https://s2.loli.net/2025/11/23/USTYMOAy7LFZeqK.png", icon_size=(40, 40))
+    
+    folium.Marker(
+        [32.055, 118.7794],
+        icon=icon,
+        popup='🦭'
+    ).add_to(m)
 
 if 'clicked' not in st.session_state:
     st.session_state.clicked = False   
@@ -797,12 +823,4 @@ if page == "果蔬小测试":
     
     if st.button('开始测试'):
         test()
-
-
-
-
-
-
-
-
 
