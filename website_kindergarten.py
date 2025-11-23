@@ -702,7 +702,7 @@ if 'mark' not in st.session_state:
 if page == "果蔬小测试":
     st.header('果蔬健康知识小测试🖊')
     
-    @st.test
+    @st.fragment
     def test():   
         if st.session_state.clicked:
             answer1 = st.selectbox('卷心菜在世界卫生组织推荐的最佳蔬菜列表中排名第几？',('','第一名','第二名','第三名✌','第四名'))
@@ -764,7 +764,7 @@ if page == "果蔬小测试":
             with col2:
                 if st.button('我要再来一次'):
                     st.session_state.show = 0
-                    st.rerun(scope="test")
+                    st.rerun(scope="fragment")
             
             with col3:
                 if st.session_state.show > 0:
@@ -777,6 +777,7 @@ if page == "果蔬小测试":
     
     if st.button('开始测试'):
         test()
+
 
 
 
