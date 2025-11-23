@@ -704,75 +704,74 @@ if page == "果蔬小测试":
     
     @st.fragment
     def test():   
-        if st.session_state.clicked:
-            answer1 = st.selectbox('卷心菜在世界卫生组织推荐的最佳蔬菜列表中排名第几？',('','第一名','第二名','第三名✌','第四名'))
-            if answer1 == '第三名✌':
-                answer1_1 = st.selectbox('那么你知道世界卫生组织最推荐的蔬菜是什么吗？',('','芦笋','甜菜','红薯','金针菇'))
-                if answer1_1 == '芦笋':
-                    st.markdown('很接近啦，芦笋排在第二名')
-                if answer1_1 == '甜菜':
-                    st.markdown('呼呼甜菜排在第七名')
-                if answer1_1 == '金针菇':
-                    st.markdown('金针菇排在第十名哦')
-                if answer1_1 == '红薯':
-                    st.markdown('''你是最聪明滴。红薯不仅营养丰富，而且吃红薯能降低血胆固醇，防止亚健康和心脑血管病等“现代病”。
-                                我们要吃红薯成为百岁老人o(*￣▽￣*)ブ''')
-            answer2 = st.selectbox('🔍判断正误：甜菜块茎的维生素C含量高于甜菜叶。',('','√','×'))
-            answer3 = st.selectbox('被称为“水果之王”的一种水果是？',('','火龙果','猕猴桃','哈密瓜','菠萝'))
-            if answer3 == '菠萝':
-                st.markdown('菠萝是水果之王~尊嘟假嘟(o゜▽゜)o☆')
-            answer4 = st.multiselect('100g卷心菜中所含有的高于100g菠萝的营养成分有哪些？',options=['','热量','膳食纤维','钾','胡萝卜素','维生素C','钙'])
-            co_answer4 = ['膳食纤维','钾','胡萝卜素','钙']
-            answer5 = st.text_input('请输入我们已经去过的城市 ~（城市间用逗号分隔，每个正确答案都能加分捏(●ˇ∀ˇ●)）')
-            answer5_list = []
-            co_answer5 = ['南京','上海','镇江','嘉兴','滁州','苏州',"大连","广州","湖州"]
-            col1,col2,col3 = st.columns([1,2,3.5])
-            with col1:
-                if st.button('确认提交'):
-                    st.session_state.show += 1
-                    if st.session_state.show == 1:
-                        #计算答案1是否得分
-                        if answer1 == '第三名✌':
-                            st.session_state.mark += 10
-                        
-                        #计算答案2是否得分
-                        if answer2 == '×':
-                            st.session_state.mark += 10
-                        
-                        #计算答案3是否得分
-                        if answer3 == '猕猴桃':
-                            st.session_state.mark += 10
-                        
-                        #计算答案4是否得分
-                        st.session_state.mark = st.session_state.mark + 10*len(set(set(answer4).intersection(set(co_answer4))))
-                                                              
-                        #计算答案5是否得分
-                        answer5_list = answer5.strip().split('，')
-                        #去除答案5列表中可能存在的重复项
-                        re_answer5 = []
-                        for i in answer5_list:
-                            if i not in re_answer5:
-                                re_answer5.append(i)
-                        st.session_state.mark = st.session_state.mark + 10*len(set(set(re_answer5).intersection(set(co_answer5))))
-                    if int(st.session_state.mark) >= 100:
-                        result = '你获得了💯！恭喜你！'
-                    else:    
-                        result = '你获得了{mark}分'.format(mark=st.session_state.mark)
-                    st.markdown(result)
-    
+        answer1 = st.selectbox('卷心菜在世界卫生组织推荐的最佳蔬菜列表中排名第几？',('','第一名','第二名','第三名✌','第四名'))
+        if answer1 == '第三名✌':
+            answer1_1 = st.selectbox('那么你知道世界卫生组织最推荐的蔬菜是什么吗？',('','芦笋','甜菜','红薯','金针菇'))
+            if answer1_1 == '芦笋':
+                st.markdown('很接近啦，芦笋排在第二名')
+            if answer1_1 == '甜菜':
+                st.markdown('呼呼甜菜排在第七名')
+            if answer1_1 == '金针菇':
+                st.markdown('金针菇排在第十名哦')
+            if answer1_1 == '红薯':
+                st.markdown('''你是最聪明滴。红薯不仅营养丰富，而且吃红薯能降低血胆固醇，防止亚健康和心脑血管病等“现代病”。
+                            我们要吃红薯成为百岁老人o(*￣▽￣*)ブ''')
+        answer2 = st.selectbox('🔍判断正误：甜菜块茎的维生素C含量高于甜菜叶。',('','√','×'))
+        answer3 = st.selectbox('被称为“水果之王”的一种水果是？',('','火龙果','猕猴桃','哈密瓜','菠萝'))
+        if answer3 == '菠萝':
+            st.markdown('菠萝是水果之王~尊嘟假嘟(o゜▽゜)o☆')
+        answer4 = st.multiselect('100g卷心菜中所含有的高于100g菠萝的营养成分有哪些？',options=['','热量','膳食纤维','钾','胡萝卜素','维生素C','钙'])
+        co_answer4 = ['膳食纤维','钾','胡萝卜素','钙']
+        answer5 = st.text_input('请输入我们已经去过的城市 ~（城市间用逗号分隔，每个正确答案都能加分捏(●ˇ∀ˇ●)）')
+        answer5_list = []
+        co_answer5 = ['南京','上海','镇江','嘉兴','滁州','苏州',"大连","广州","湖州"]
+        col1,col2,col3 = st.columns([1,2,3.5])
+        with col1:
+            if st.button('确认提交'):
+                st.session_state.show += 1
+                if st.session_state.show == 1:
+                    #计算答案1是否得分
+                    if answer1 == '第三名✌':
+                        st.session_state.mark += 10
                     
-            with col2:
-                if st.button('我要再来一次'):
-                    st.session_state.show = 0
-                    st.rerun(scope="fragment")
-            
-            with col3:
-                if st.session_state.show > 0:
-                    if st.button('我要学习营养知识！'):
-                        with st.expander('“为什么称猕猴桃为‘水果之王’？”'):
-                            st.markdown('猕猴桃之所以能被尊称为“水果之王”，更在于其惊人的营养价值。在众多水果中，猕猴桃以其维生素C的超高含量脱颖而出。每100克鲜果中，维生素C的含量可达100至420毫克，这一数字不仅远超甜橙，更是苹果的数十倍之多，几乎在所有水果中名列前茅。维生素C作为人体必需的营养素，对于增强免疫力、促进胶原蛋白合成、保护皮肤健康等方面都发挥着重要作用。')
-                            st.markdown('除了维生素C之外，猕猴桃还是一座营养宝库，富含糖类物质、蛋白质、氨基酸等多种有机物，以及钙、铁、锌等人体必需的矿物质。这些营养物质共同作用于人体，不仅能够为身体提供充足的能量，还能促进新陈代谢，维持身体机能的正常运转。特别是猕猴桃中的蛋白水解酶，这种独特的酶类物质能够帮助人体更好地消化肉类食物，预防蛋白质在肠道内的异常凝固，从而减轻肠胃负担。')
-                            st.markdown('此外，猕猴桃还含有丰富的纤维素和果胶等膳食纤维成分。这些成分在人体内能够吸水膨胀，增加粪便体积，促进肠道蠕动，有助于预防便秘等肠道问题。同时，它们还能吸附并带走肠道内的有害物质，起到清洁肠道、维护肠道健康的作用。综上所述，猕猴桃以其全面的营养成分和卓越的保健功能，当之无愧地被誉为“水果之王”。')
+                    #计算答案2是否得分
+                    if answer2 == '×':
+                        st.session_state.mark += 10
+                    
+                    #计算答案3是否得分
+                    if answer3 == '猕猴桃':
+                        st.session_state.mark += 10
+                    
+                    #计算答案4是否得分
+                    st.session_state.mark = st.session_state.mark + 10*len(set(set(answer4).intersection(set(co_answer4))))
+                                                          
+                    #计算答案5是否得分
+                    answer5_list = answer5.strip().split('，')
+                    #去除答案5列表中可能存在的重复项
+                    re_answer5 = []
+                    for i in answer5_list:
+                        if i not in re_answer5:
+                            re_answer5.append(i)
+                    st.session_state.mark = st.session_state.mark + 10*len(set(set(re_answer5).intersection(set(co_answer5))))
+                if int(st.session_state.mark) >= 100:
+                    result = '你获得了💯！恭喜你！'
+                else:    
+                    result = '你获得了{mark}分'.format(mark=st.session_state.mark)
+                st.markdown(result)
+
+                
+        with col2:
+            if st.button('我要再来一次'):
+                st.session_state.show = 0
+                st.rerun(scope="fragment")
+        
+        with col3:
+            if st.session_state.show > 0:
+                if st.button('我要学习营养知识！'):
+                    with st.expander('“为什么称猕猴桃为‘水果之王’？”'):
+                        st.markdown('猕猴桃之所以能被尊称为“水果之王”，更在于其惊人的营养价值。在众多水果中，猕猴桃以其维生素C的超高含量脱颖而出。每100克鲜果中，维生素C的含量可达100至420毫克，这一数字不仅远超甜橙，更是苹果的数十倍之多，几乎在所有水果中名列前茅。维生素C作为人体必需的营养素，对于增强免疫力、促进胶原蛋白合成、保护皮肤健康等方面都发挥着重要作用。')
+                        st.markdown('除了维生素C之外，猕猴桃还是一座营养宝库，富含糖类物质、蛋白质、氨基酸等多种有机物，以及钙、铁、锌等人体必需的矿物质。这些营养物质共同作用于人体，不仅能够为身体提供充足的能量，还能促进新陈代谢，维持身体机能的正常运转。特别是猕猴桃中的蛋白水解酶，这种独特的酶类物质能够帮助人体更好地消化肉类食物，预防蛋白质在肠道内的异常凝固，从而减轻肠胃负担。')
+                        st.markdown('此外，猕猴桃还含有丰富的纤维素和果胶等膳食纤维成分。这些成分在人体内能够吸水膨胀，增加粪便体积，促进肠道蠕动，有助于预防便秘等肠道问题。同时，它们还能吸附并带走肠道内的有害物质，起到清洁肠道、维护肠道健康的作用。综上所述，猕猴桃以其全面的营养成分和卓越的保健功能，当之无愧地被誉为“水果之王”。')
 
     
     if st.button('开始测试'):
