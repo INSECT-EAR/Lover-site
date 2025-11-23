@@ -7,7 +7,7 @@ import datetime
 import random
 import folium
 from streamlit_folium import st_folium
-from streamlit_extras.stylable_container import stylable_container
+#from streamlit_extras.stylable_container import stylable_container
 
 #网页全局设置
 st.set_page_config(
@@ -619,7 +619,7 @@ if page == "果蔬相册":
             with st.container():
                 st.image("https://s2.loli.net/2024/12/02/eX2UsgHCzM7YbIB.jpg")
     
-     if selected_year == "2024" and selected_month == "十一月":
+    if selected_year == "2024" and selected_month == "十一月":
         st.markdown("""
         <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px;">
         <i>
@@ -645,7 +645,6 @@ if page == "果蔬相册":
                 st.image("https://s2.loli.net/2024/12/02/NJxZpcFEGRdoXmS.jpg")
                 st.image("https://s2.loli.net/2024/12/02/CoAKluiykXYHenG.jpg")
                 st.image("https://s2.loli.net/2024/12/02/njMP7UxcK9Cwa1D.jpg")            
-    
     if selected_year == "2024" and selected_month == "十二月":   
         st.markdown("""
         <div style="font-family: 'Times New Roman'; text-align: center; width: 100%; padding: 50px; text-shadow: 0 0 10px,0 0 20px,0 0 30px;">
@@ -682,10 +681,12 @@ if page == "果蔬相册":
             st.image("https://s2.loli.net/2024/12/21/cmLR6np7aCvjr8Y.jpg")
             st.image("https://s2.loli.net/2024/12/21/ENf5yCFr4ASGkV6.jpg")
             st.image("https://s2.loli.net/2024/12/21/FSl8EnOT3AhCB69.jpg")
-     if selected_year == "2025" and selected_month == "一月":   
+            
+    if selected_year == "2025" and selected_month == "一月":   
           st.markdown("""
              """)
-     if selected_year == "2025" and selected_month == "六月":   
+             
+    if selected_year == "2025" and selected_month == "六月":   
           st.markdown("""
                """)
 
@@ -772,7 +773,6 @@ if page == "果蔬小测试":
                         st.markdown('猕猴桃之所以能被尊称为“水果之王”，更在于其惊人的营养价值。在众多水果中，猕猴桃以其维生素C的超高含量脱颖而出。每100克鲜果中，维生素C的含量可达100至420毫克，这一数字不仅远超甜橙，更是苹果的数十倍之多，几乎在所有水果中名列前茅。维生素C作为人体必需的营养素，对于增强免疫力、促进胶原蛋白合成、保护皮肤健康等方面都发挥着重要作用。')
                         st.markdown('除了维生素C之外，猕猴桃还是一座营养宝库，富含糖类物质、蛋白质、氨基酸等多种有机物，以及钙、铁、锌等人体必需的矿物质。这些营养物质共同作用于人体，不仅能够为身体提供充足的能量，还能促进新陈代谢，维持身体机能的正常运转。特别是猕猴桃中的蛋白水解酶，这种独特的酶类物质能够帮助人体更好地消化肉类食物，预防蛋白质在肠道内的异常凝固，从而减轻肠胃负担。')
                         st.markdown('此外，猕猴桃还含有丰富的纤维素和果胶等膳食纤维成分。这些成分在人体内能够吸水膨胀，增加粪便体积，促进肠道蠕动，有助于预防便秘等肠道问题。同时，它们还能吸附并带走肠道内的有害物质，起到清洁肠道、维护肠道健康的作用。综上所述，猕猴桃以其全面的营养成分和卓越的保健功能，当之无愧地被誉为“水果之王”。')
-
 
 
 
