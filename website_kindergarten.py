@@ -143,10 +143,7 @@ if page == "幼儿园大门":
     <div style="font-family: 'Cambria', serif;"><i>
     From 2023.12.18
     </div></i>
-    果蔬幼儿园从开园起已经 <span style="color: #BA55D3;">{days_past_str}。
-    </div></span> 
-    2026.05.08后，果蔬幼儿园已经不再营业。
-    </div></span>
+    果蔬幼儿园从开园起已经 <span style="color: #BA55D3;">{days_past_str}~
     """.format(today=today,days_past_str=days_past_str)
   
     with st.container(): 
