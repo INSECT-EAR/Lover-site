@@ -146,7 +146,7 @@ if page == "幼儿园大门":
     果蔬幼儿园从开园起已经 <span style="color: #BA55D3;">{days_past_str}</span> ~
     </div></span>
     """.format(today=today,days_past_str=days_past_str)
-     <div style="font-family: '楷体', serif;">
+    <div style="font-family: '楷体', serif;">
     <div style="text-align: center; position: fixed; bottom: 0; width: 50%; padding: 30px;">
     <span style="font-size: 15px;">
     2026.05.08后，果蔬幼儿园已经不再营业。
