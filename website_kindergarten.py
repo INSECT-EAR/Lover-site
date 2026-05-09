@@ -143,9 +143,14 @@ if page == "幼儿园大门":
     <div style="font-family: 'Cambria', serif;"><i>
     From 2023.12.18
     </div></i>
-    果蔬幼儿园已经营业 <span style="color: #BA55D3;">{days_past_str}</span> ~
+    果蔬幼儿园从开园起已经 <span style="color: #BA55D3;">{days_past_str}</span> ~
     </div></span>
     """.format(today=today,days_past_str=days_past_str)
+     <div style="font-family: '楷体', serif;">
+    <div style="text-align: center; position: fixed; bottom: 0; width: 50%; padding: 30px;">
+    <span style="font-size: 15px;">
+    2026.05.08后，果蔬幼儿园已经不再营业。
+    <div style="font-family: 'Cambria', serif;"><i>
     with st.container(): 
         st.markdown(days_count,unsafe_allow_html=True)
     
@@ -155,8 +160,6 @@ if page == "幼儿园大门":
                 st.markdown(photo_card_title, unsafe_allow_html=True)
                 st.image(random_choice['image'],caption=random_choice['caption'],use_column_width=True)
         
-    time.sleep(3)
-    st.balloons()
 
 if page == "果蔬相册":
     st.header(':camera: :video_camera: :floppy_disk:')
